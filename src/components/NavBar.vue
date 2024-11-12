@@ -2,7 +2,7 @@
     <nav class="navbar">
       <div class="navbar-container">
         <!-- Logo -->
-        <a href="/" class="navbar-logo">RCM Gambia</a>
+        <a href="/" class="navbar-logo"><img class="logo" src="../../public/logo.jpeg" alt="" srcset=""></a>
   
         <!-- Toggle Button for Mobile -->
         <button @click="toggleMenu" class="navbar-toggle" aria-label="Toggle navigation">
@@ -78,7 +78,10 @@
     padding: 1rem;
     position: relative;
   }
-  
+  .logo{
+    width: 50px;
+    
+  }
   .navbar-container {
     display: flex;
     justify-content: space-between;
