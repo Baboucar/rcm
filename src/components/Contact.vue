@@ -104,16 +104,20 @@
   }
   
   .form-row {
-    display: flex;
+   
     gap: 1rem;
   }
-  
+  input{
+    margin-top: 1rem;
+    width: 90%;
+  }
   input, textarea {
     flex: 1;
     padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+    
   }
   
   .submit-button {
@@ -174,6 +178,10 @@
     .contact-info {
       flex: 1;
     }
+    .form-row {
+       display: flex;
+        gap: 1rem;
+      }
   }
   
   /* Desktop Styles */

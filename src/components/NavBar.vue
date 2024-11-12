@@ -76,6 +76,7 @@
     background-color: #004080;
     color: white;
     padding: 1rem;
+    position: relative;
   }
   
   .navbar-container {
@@ -98,17 +99,22 @@
     color: white;
     cursor: pointer;
   }
-  a{
+  
+  a {
     cursor: pointer;
   }
+  
   .navbar-links {
     list-style: none;
     display: flex;
     gap: 1rem;
     margin: 0;
+    padding: 0;
+    z-index: 1;
   }
   
-  .navbar-links a, .navbar-links router-link {
+  .navbar-links a,
+  .navbar-links router-link {
     color: white;
     text-decoration: none;
   }
@@ -118,7 +124,7 @@
     .navbar-toggle {
       display: block;
     }
-    
+  
     .navbar-links {
       display: none;
       flex-direction: column;
@@ -133,7 +139,6 @@
   
     .navbar-links--open {
       display: flex;
-      z-index: 1;
     }
   }
   </style>

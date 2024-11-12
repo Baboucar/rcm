@@ -31,7 +31,7 @@
   
   .overlay {
     position: absolute;
-    width: 100%;
+    width: 92%;
     top: 0;
     left: 0;
     height: 500px;
